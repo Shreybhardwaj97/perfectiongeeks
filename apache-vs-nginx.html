@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Apache vs. NGINX | Apache server | NGINX web server</title>
+   <meta name="description"
+      content="In the present trending world of web and app, development the two cloud platforms as Apache web server and NGINX are conflicting with one another to become the preferred choice of developers." />
+   <meta name="keywords"
+      content="Apache Web Server, NGINX, Apache and NGINX, NGINX Web Server, Apache Server, NGINX Server">
+   <link rel="icon" href="favicon.svg" type="image/x-icon" />
+   <link rel="canonical" href="https://www.perfectiongeeks.com/apache-vs-nginx">
+   <!-- Theme tittle -->
+   <!-- Theme style CSS -->
+   <link href="https://d32yelkel05fze.cloudfront.net/pfiles/new/css/style.css" rel="stylesheet">
+
+   <link rel="alternate" href="https://www.perfectiongeeks.com/apache-vs-nginx" hreflang="en-gb" />
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.perfectiongeeks.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Who we are",
+    "item": "https://www.perfectiongeeks.com/about"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Our Team",
+    "item": "https://www.perfectiongeeks.com/team"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Ux Ui Design",
+    "item": "https://www.perfectiongeeks.com/uxui-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 5, 
+    "name": "Product Design",
+    "item": "https://www.perfectiongeeks.com/uxui-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 6, 
+    "name": "Wireframe",
+    "item": "https://www.perfectiongeeks.com/wireframe-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 7, 
+    "name": "Mobile ui Design",
+    "item": "https://www.perfectiongeeks.com/mobile-ui-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 8, 
+    "name": "Web Design Services",
+    "item": "https://www.perfectiongeeks.com/web-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 9, 
+    "name": "Android Development",
+    "item": "https://www.perfectiongeeks.com/android-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 10, 
+    "name": "Dapp Development",
+    "item": "https://www.perfectiongeeks.com/dapp-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 11, 
+    "name": "Web Development",
+    "item": "https://www.perfectiongeeks.com/web-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 12, 
+    "name": "IOT Development",
+    "item": "https://www.perfectiongeeks.com/iot-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 13, 
+    "name": "Artificial Intelligence",
+    "item": "https://www.perfectiongeeks.com/artificial-intelligence-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 14, 
+    "name": "IOS  Development",
+    "item": "https://www.perfectiongeeks.com/ios-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 15, 
+    "name": "Argument Reality",
+    "item": "https://www.perfectiongeeks.com/augmented-reality-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 16, 
+    "name": "Bot Development",
+    "item": "https://www.perfectiongeeks.com/bot-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 17, 
+    "name": "Wearable Development",
+    "item": "https://www.perfectiongeeks.com/wearable-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 18, 
+    "name": "Cloud Computing",
+    "item": "https://www.perfectiongeeks.com/cloud-computing-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 19, 
+    "name": "Machine Learning",
+    "item": "https://www.perfectiongeeks.com/machine-learning-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 20, 
+    "name": "Blockchain Solutions",
+    "item": "https://www.perfectiongeeks.com/blockchain-solutions-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 21, 
+    "name": "IPFS Blockchain Development",
+    "item": "https://www.perfectiongeeks.com/ipfs-blockchain-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 22, 
+    "name": "Blockchain App Development",
+    "item": "https://www.perfectiongeeks.com/blockchain-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 23, 
+    "name": "Private Blockchain Solutions",
+    "item": "https://www.perfectiongeeks.com/private-blockchain-solution-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 24, 
+    "name": "EOS BlockChain Development",
+    "item": "https://www.perfectiongeeks.com/eos-blockchain-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 25, 
+    "name": "R3 Corda Blockchain Development",
+    "item": "https://www.perfectiongeeks.com/r3-corda-blockchain-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 26, 
+    "name": "Ethereum Development",
+    "item": "https://www.perfectiongeeks.com/ethereum-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 27, 
+    "name": "Hedera Hashgraph Development",
+    "item": "https://www.perfectiongeeks.com/hedera-hashgraph-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 28, 
+    "name": "Strato Blockchain",
+    "item": "https://www.perfectiongeeks.com/strato-blockchain-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 29, 
+    "name": "Hyperledger Blockchain App",
+    "item": "https://www.perfectiongeeks.com/hyperledger-blockchain-app"  
+  },{
+    "@type": "ListItem", 
+    "position": 30, 
+    "name": "Enterprise Mobility Solution",
+    "item": "https://www.perfectiongeeks.com/enterprise-mobility-solutions-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 31, 
+    "name": "Strategic Consulting",
+    "item": "https://www.perfectiongeeks.com/strategic-consulting-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 32, 
+    "name": "Technology",
+    "item": "https://www.perfectiongeeks.com/technology"  
+  },{
+    "@type": "ListItem", 
+    "position": 33, 
+    "name": "Portfolio",
+    "item": "https://www.perfectiongeeks.com/portfolio"  
+  },{
+    "@type": "ListItem", 
+    "position": 34, 
+    "name": "Blog",
+    "item": "https://www.perfectiongeeks.com/blog"  
+  },{
+    "@type": "ListItem", 
+    "position": 35, 
+    "name": "Contact",
+    "item": "https://www.perfectiongeeks.com/contact"  
+  }]
+}
+</script>
+
+</head>
+
+<body>
+   <!-- Header Area -->
+   <header class="main_header_area mha_4">
+      <div class="container">
+         <div class="header_menu">
+            <nav class="navbar navbar-expand-lg">
+               <a class="navbar-brand" href="https://www.perfectiongeeks.com">
+                  <img src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/scroll-logo.png"
+                     alt="Perfection Geeks 2">
+
+               </a>
+               <!-- Small Divice Menu-->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar_supported"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+               </button>
+               <div class="collapse navbar-collapse navbar_supported">
+                  <ul class="navbar-nav">
+                     <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                           aria-expanded="false">Company</a>
+                        <ul class="dropdown-menu width-289">
+                           <li><a href="https://www.perfectiongeeks.com/about">Who we are</a></li>
+                           <li><a href="https://www.perfectiongeeks.com/team">Our Team</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown service_dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                           aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-md-2 p-0 ">
+                                    <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                                       <li class="nav-item">
+                                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                                             role="tab" aria-controls="home" aria-selected="true">Design</a>
+                                       </li>
+                                       <li class="nav-item">
+                                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                             role="tab" aria-controls="profile" aria-selected="false">Development</a>
+                                       </li>
+                                       <li class="nav-item">
+                                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact"
+                                             role="tab" aria-controls="contact" aria-selected="false">Blockchain</a>
+                                       </li>
+                                       <li class="nav-item">
+                                          <a class="nav-link" id="solutions-tab" data-toggle="tab" href="#solutions"
+                                             role="tab" aria-controls="contact" aria-selected="false">Strategy</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <!-- /.col-md-4 -->
+                                 <div class="col-md-6">
+                                    <div class="tab-content pt-4" id="myTabContent">
+                                       <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                          aria-labelledby="home-tab">
+                                          <ul>
+                                             <li><a id="uxui-design"
+                                                   href="https://www.perfectiongeeks.com/uxui-design-services">Ux
+                                                   Ui Design</a></li>
+                                             <li><a id="product-design"
+                                                   href="https://www.perfectiongeeks.com/product-design-services">Product
+                                                   Design</a></li>
+                                             <!--  <li><a id="website-design" href="website-design-services.html">Website Design</a></li> -->
+                                             <li><a id="wireframe-design"
+                                                   href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe
+                                                   Design</a></li>
+                                             <li><a id="mobile-ui-design"
+                                                   href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile
+                                                   Ui
+                                                   Design</a></li>
+                                             <li><a id="website-design"
+                                                   href="https://www.perfectiongeeks.com/web-design-services">Web Design
+                                                   Services</a></li>
+                                          </ul>
+                                       </div>
+                                       <div class="tab-pane fade" id="profile" role="tabpanel"
+                                          aria-labelledby="profile-tab">
+                                          <div class="row">
+                                             <div class="col-md-6">
+                                                <ul>
+                                                   <li><a id="android-development"
+                                                         href="https://www.perfectiongeeks.com/android-app-development-services">Android
+                                                         Development</a></li>
+                                                   <li><a id="web-development"
+                                                         href="https://www.perfectiongeeks.com/web-development-services">Web
+                                                         Development</a></li>
+                                                   <li><a id="artificial-intelligence"
+                                                         href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                                                         Intelligence</a></li>
+                                                   <li><a id="augmented-reality"
+                                                         href="https://www.perfectiongeeks.com/augmented-reality-services">Augumented
+                                                         Reality</a></li>
+                                                   <li><a id="bot-development"
+                                                         href="https://www.perfectiongeeks.com/bot-development-services">Bot
+                                                         Development</a></li>
+                                                   <li><a id="cloud-computing"
+                                                         href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud
+                                                         Computing</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-6">
+                                                <ul>
+                                                   <li><a id="dapp-development"
+                                                         href="https://www.perfectiongeeks.com/dapp-development-services">Dapp
+                                                         Development</a></li>
+                                                   <li><a id="iot-app-development"
+                                                         href="https://www.perfectiongeeks.com/iot-app-development-services">IOT
+                                                         App Development</a></li>
+                                                   <li><a id="ios-app-development"
+                                                         href="https://www.perfectiongeeks.com/ios-app-development-services">IOS
+                                                         App Development</a></li>
+                                                   <li><a id="wearable-app-development"
+                                                         href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable
+                                                         App Development</a></li>
+                                                   <li><a id="machine-learning"
+                                                         href="https://www.perfectiongeeks.com/machine-learning-services">Machine
+                                                         Learning</a></li>
+                                                   <li><a id="machine-learning"
+                                                         href="https://www.perfectiongeeks.com/MLM-app-developer">MLM
+                                                         app developer</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="tab-pane fade" id="contact" role="tabpanel"
+                                          aria-labelledby="contact-tab">
+                                          <div class="row">
+                                             <div class="col-md-6">
+                                                <ul>
+                                                   <li><a id="blockchain-solutions"
+                                                         href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain
+                                                         Solutions</a></li>
+                                                   <li><a id="blockchain-app-development"
+                                                         href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain
+                                                         App Development</a></li>
+                                                   <li><a id="eos-blockchain-development"
+                                                         href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS
+                                                         Blockchain Development</a></li>
+                                                   <li><a id="ethereum-development"
+                                                         href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum
+                                                         Development</a></li>
+                                                   <li><a id="hedera-hashgraph-development"
+                                                         href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera
+                                                         Hashgraph Development</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-6">
+                                                <ul>
+                                                   <li><a id="ipfs-blockchain-development"
+                                                         href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS
+                                                         Blockchain Development</a></li>
+                                                   <li><a id="private-blockchain-solution"
+                                                         href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private
+                                                         Blockchain Solutions</a></li>
+                                                   <li><a id="r3-corda-blockchain-development"
+                                                         href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3
+                                                         Corda Blockchain Development</a></li>
+                                                   <li><a id="strato-blockchain"
+                                                         href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato
+                                                         Blockchain</a></li>
+                                                   <li><a id="strato-blockchain"
+                                                         href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger
+                                                         Blockchain App</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="tab-pane fade" id="solutions" role="tabpanel"
+                                          aria-labelledby="contact-tab">
+                                          <ul>
+                                             <li><a id="enterprise-mobility-solutions"
+                                                   href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                                                   Mobility Solution</a></li>
+                                             <li><a id="voice-technology"
+                                                   href="https://www.perfectiongeeks.com/voice-technology-services">Voice
+                                                   Technology</a></li>
+                                             <li><a id="strategic-consulting"
+                                                   href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic
+                                                   Consulting</a></li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!-- /.col-md-8 -->
+                                 <!-- col-md-4 -->
+                                 <div class="col-md-4">
+                                    <div class="menu-img">
+                                       <img id="menu-img-ui-ux-design"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/ui-ux-design.jpg"
+                                          alt="ui ux design in UK perfectiongeeks">
+                                       <img id="menu-img-product-design"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/product-design.jpg"
+                                          alt=" product design in UK perfectiongeeks">
+                                       <img id="menu-img-web-design"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/web-design.jpg"
+                                          alt="web design in UK perfectiongeeks">
+                                       <img id="menu-img-wireframe-design"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/wireframe-design.jpg"
+                                          alt="wireframe design in UK perfectiongeeks">
+                                       <img id="menu-img-mobile-ui-design"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/mobile-ui-design.jpg"
+                                          alt="mobile ui design in UK perfectiongeeks">
+                                       <img id="menu-img-android-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/android-development.jpg"
+                                          alt="android development in UK perfectiongeeks">
+                                       <img id="menu-img-web-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/web-development.jpg"
+                                          alt="web-development in UK perfectiongeeks">
+                                       <img id="menu-img-artificial-intelligence"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/artificial-intelligence.jpg"
+                                          alt="artificial intelligence in UK perfectiongeeks">
+                                       <img id="menu-img-augmented-reality"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/augmented-reality.jpg"
+                                          alt="augmented reality in UK perfectiongeeks">
+                                       <img id="menu-img-cloud-computing"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/cloud-computing.jpg"
+                                          alt="cloud computing in UK perfectiongeeks">
+                                       <img id="menu-img-dapp-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/dapp-development.jpg"
+                                          alt="dapp development in UK perfectiongeeks">
+                                       <img id="menu-img-iot-app-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/iot-app-development.jpg"
+                                          alt="iot app development in UK perfectiongeeks">
+                                       <img id="menu-img-ios-app-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/ios-app-development.jpg"
+                                          alt="ios app development in UK perfectiongeeks">
+                                       <img id="menu-img-wearable-app-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/wearable-app-development.jpg"
+                                          alt="wearable app development in UK perfectiongeeks">
+                                       <img id="menu-img-machine-learning"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/machine-learning.jpg"
+                                          alt="machine learning in UK perfectiongeeks">
+                                       <img id="menu-img-blockchain-app-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/blockchain-app-development.jpg"
+                                          alt="blockchain app development in UK perfectiongeeks">
+                                       <img id="menu-img-eos-blockchain-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/eos-blockchain-development.jpg"
+                                          alt="eos blockchain development in UK perfectiongeeks">
+                                       <img id="menu-img-ethereum-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/ethereum-development.jpg"
+                                          alt="eos ethereum development in UK perfectiongeeks">
+                                       <img id="menu-img-hedera-hashgraph-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/hedera-hashgraph-development.jpg"
+                                          alt="hedera hashgraph development in UK perfectiongeeks">
+                                       <img id="menu-img-ipfs-blockchain-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/ipfs-blockchain-development.jpg"
+                                          alt="ipfs blockchain development in UK perfectiongeeks">
+                                       <img id="menu-img-private-blockchain-solution"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/private-blockchain-solution.jpg"
+                                          alt="private blockchain solution in UK perfectiongeeks">
+                                       <img id="menu-img-r3-corda-blockchain-development"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/r3-corda-blockchain-development.jpg"
+                                          alt="r3 corda blockchain development in UK perfectiongeeks">
+                                       <img id="menu-img-strato-blockchain"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/strato-blockchain.jpg"
+                                          alt="eos strato blockchain in UK perfectiongeeks">
+                                       <img id="menu-img-enterprise-mobility-solutions"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/enterprise-mobility-solutions.jpg"
+                                          alt="enterprise mobility solutions in UK perfectiongeeks">
+                                       <img id="menu-img-voice-technology"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/voice-technology.jpg"
+                                          alt="voice technology in UK perfectiongeeks">
+                                       <img id="menu-img-strategic-consulting"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/strategic-consulting.jpg"
+                                          alt="strategic consulting in UK perfectiongeeks">
+                                       <img id="menu-img-slider1"
+                                          src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/menu/slider1.jpg"
+                                          alt="slider1 in UK perfectiongeeks" class="menu-last-images">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="https://www.perfectiongeeks.com/technology">Technology</a>
+                     </li>
+                     <li>
+                        <a href="https://www.perfectiongeeks.com/portfolio">Porfolio</a>
+                     </li>
+                     <li>
+                        <a href="https://www.perfectiongeeks.com/blog">Blog</a>
+                     </li>
+                     <li><a class="header_call_btn home_header_call_btn" data-toggle="modal"
+                           data-target="#contact_modal"><i class="fa fa-phone" aria-hidden="true"></i>
+                        </a>
+                     </li>
+                     <li><a href="https://www.perfectiongeeks.com/contact" class="theme_btn">Contact</a></li>
+                     <div class="flag-circle">
+                        <a href="https://www.perfectiongeeks.com/en-us/"><img
+                              src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/usa-flag.svg"></a>
+                     </div>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+   </header>
+   <!-- Header Area -->
+   <!-- Banner Area -->
+   <section class="pages_banner blog-page-banner">
+      <div class="container">
+         <div aria-label="breadcrumb">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item">
+                  <a href="https://www.perfectiongeeks.com/">Home</a>
+               </li>
+               <li class="breadcrumb-item  ">
+                  <a href="https://www.perfectiongeeks.com/technology">Technology</a>
+               </li>
+               <li class="breadcrumb-item active"><a href="#">apache vs nginx</a></li>
+            </ol>
+         </div>
+      </div>
+   </section>
+   <!-- End Banner Area -->
+   <!-- Blog Single Area -->
+   <section class="d-flex justify-content-center covid-page  technology-page-content ">
+      <div class="col-lg-9 col-md-12">
+         <p class="info-covid">apache vs nginx</p>
+         <h1 class="covid-heading font-weight-bold">
+            NGINX Server or Apache Web Server what should I Prefer
+         </h1>
+      </div>
+   </section>
+   <div class="main-img-box-technology apache-vs-nginx mt-5"></div>
+   <section class="d-flex justify-content-center covid-page technology-page-content  bg-grey  ">
+      <div class="col-lg-8 p-3 p-lg-5 col-md-12 content-box">
+         <p class="  body-text">PHP and Node.js are both powerful back-end development technologies useful for the Web
+            servers are playing a vagarious role in the cloud settlement of a business, and for that in addition, to
+            prove them a best, the two famous open-source web servers platforms as the <a
+               href="https://www.apache.org/">Apache</a> HTTP server and NGINX are
+            debating harshly to justify themselves as the most preferable server. Over millions of <a
+               href="https://www.perfectiongeeks.com/web-development-services">websites</a> across the
+            globe run on these two web servers. For nearly twenty years, Apache Web Server served around 60% of websites
+            worldwide until its competitor <a href="https://www.nginx.com/">NGINX</a> (also referred to as "engine- x")
+            came into existence. Due to the
+            sensitive development in data traffic volumes and the number of clients of the internet, NGINX was
+            acquainted with conquering the exhibition restrictions of Apache web servers. NGINX, intended for higher
+            simultaneousness, can be conveyed as an independent web server and as a frontend alternative for Apache and
+            other web servers.</p>
+         <h3 class="mt-5 technology-heading">What is the Apache Web Server?</h3>
+         <img class="mt-5 mb-3" src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/apache-web-server.jpg"
+            alt=" apache web server services in india PerfectionGeeks" width="100%">
+         <p class="body-text">
+            Apache was created and introduced to the web world to convey web content which is ingress through the web.
+            It is eminent for assuming a critical part in the underlying development of the World Wide Web. Apache is an
+            open-source system created and managed by an open community of developers and it runs on a wide assortment
+            of serving systems. The developers incorporate the Apache Core and modules. The centre segment gives the
+            essential server likeability, so it acknowledges associations and manages simultaneousness. The different
+            modules compare to various functionalities that are executed on each solicitation. A particular Apache
+            sending can be developed to incorporate various modules, for example, security features, the executives of
+            dynamic substance or for essential HTTP requests.
+         </p>
+         <p class="body-text">
+            "One-server does-all" model was the way into the early accomplishment of Apache. Nonetheless, as traffic
+            levels expanded and pages got more extravagant and execution was an imperative, tuning Apache became complex
+            to adapt to the real traffic.
+         </p>
+
+         <h4 class="mt-5 technology-heading">What is NGINX?</h4>
+         <img class="mt-5 mb-3" src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/NGINX-web-server.jpg"
+            alt=" NGINX web server services in UK perfectionGeeks " width="100%">
+         <p class="body-text">
+            NGINX was composed explicitly to address the presentation restrictions of Apache Web Server. The
+            presentation and adaptability of NGINX emerge from its driven architecture. It varies essentially from
+            Apache's process or-string per-association approach. In NGINX, every worker process can deal with a huge
+            number of HTTP associations all the while. Therefore NGINX is an execution that is lightweight, adaptable
+            and has elite. This design makes the treatment of high and fluctuating data stacks considerably more
+            unsurprising regarding RAM utilization, CPU use, and idleness.
+         </p>
+         <p class="body-text mt-5 font-weight-bold">
+            NGINX likewise has a rich arrangement of features and can perform different server jobs:
+         </p>
+         <ol>
+            <li>
+               <p class="body-text">A reverse access server for HTTP, HTTPS, SMTP, POP3, and IMAP conventions. </p>
+            </li>
+            <li>
+               <p class="body-text">A load balancer and HTTP store. </p>
+            </li>
+            <li>
+               <p class="body-text">A frontend alternative for Apache and other web servers, joining the adaptability of
+                  Apache with the great static substance execution of NGINX. </p>
+            </li>
+         </ol>
+
+         <h5 class="mt-5 technology-heading">Difference between Apache and Nginx web server</h5>
+         <img class="mt-5 mb-3" src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/apache-vs-nginx.jpg"
+            alt=" apache vs nginx server services in UK perfectionGeeks " width="100%">
+
+         <h4 class="mt-3 mb-3">1. Soberness</h4>
+         <p class="body-text">Creating and improving applications on Apache is simple. The one-connection per-process
+            model makes it simple to embed modules anytime in its web serving sense. Developers could add code so that
+            if there were disappointments just the specialist process running the code would be influenced. Handling of
+            any remaining associations would proceed with undisturbed. </p>
+         <p class="body-text">While NGINX has a modern structure consequently creating modules isn't simple. NGINX
+            module developers should be careful so as to make proficient and exact code, with no errors, and to
+            associate fittingly with the intricate occasion driven bit to remove or ignore blocking activities and
+            operations.</p>
+         <h4 class="mt-4 mb-3">2. Performance</h4>
+         <p class="body-text">Both Apache and NGINX trusts to serve static and dynamic contents in an unexpected way.
+            Apache utilizes a traditional file-based technique for serving static content like CSS, JS or picture
+            document. While NGINX offers part of choices to streamline exhibitions for serving static content. </p>
+         <p class="body-text">NGINX is perfect for serving static data content or media under heavy load. As indicated
+            by some benchmark reports, NGINX is multiple times quicker than Apache while serving static content. </p>
+         <p class="body-text">In the way of handling dynamic substances like PHP pages, the two of them advance the
+            solicitation to isolate climate for PHP. Apache is directly associated with handling PHP pages but Nginx
+            utilizes the services of PHP-FPM to do likewise. </p>
+         <p class="body-text">NGINX has developed appropriately with PHP-FPM, and can handle dynamic data content
+            productively. Apache is additionally similarly proficient in handling PHP pages when multi-preparing modules
+            (mpm_event) are arranged effectively with PHP-FPM. </p>
+         <p class="body-text">Subsequently, if there should be an occurrence of serving dynamic substance, both Apache
+            and NGINX are similarly acceptable.</p>
+
+
+
+         <h4 class="mt-3 mb-3">3. Architecture </h4>
+         <p class="body-text">
+            The design structure of Apache and NGINX is very extraordinary and it influences the manner in which they
+            handle associations and traffic from customers. Apache depends on the process-driven design where it makes
+            another string for every association demand. This lead to hefty asset uses during weighty traffic that can
+            cause issues with Apache.
+         </p>
+         <p class="body-text">
+            While NGINX uses non-obstructing event-driven design and can serve a large number of simultaneous request
+            with one string. In NGINX, a single master process makes various measures and every worker process has just
+            one string. Therefore, NGINX works productively with restricted assets as compared to Apache server which
+            can deal with just a single association with a single string.
+         </p>
+         <h4 class="mt-4 mb-3">4. Static Dynamic Content</h4>
+         <p class="body-text">
+            NGINX performs 2.5 paces faster than Apache as indicated by a benchmark test performed by approaching a huge
+            bunch of concurrent associations. Another benchmark running with 512 synchronous associations, indicated
+            that NGINX is about twice as quick and burned-through less memory. No doubt, NGINX has a bit of leeway over
+            Apache with static content. So in the event that you need to serve simultaneous static content, NGINX will
+            definitely serve you the best.
+         </p>
+         <p class="body-text">
+            While to showcase the dynamic content, the benchmark test results uncovered that the Nginx versus apache
+            execution for both were actually the equivalent. A likely explanation behind this is, practically the
+            entirety of the solicitation handling time is spent in the PHP runtime stage as opposed to the centre piece
+            of the web server. The PHP runtime climate is really like both web servers.
+         </p>
+         <p class="body-text">
+            Apache can likewise deal with dynamic content by inserting a processor of a language like PHP into every one
+            of its specialist cases. This permits it to execute dynamic substance inside the web server itself without
+            depending on outside segments. These dynamic processors can be empowered using progressively loadable
+            modules.
+         </p>
+         <p class="body-text">
+            NGINX doesn't have any capacity to deal with dynamic content locally. To deal with PHP and different
+            requests for dynamic content, NGINX should pass to an outer processor for execution and trust that the
+            delivered content will be sent back. In any case, this strategy has a few focal points also. Since the
+            dynamic mediator isn't installed in the expert process, its overhead might be available for dynamic content.
+         </p>
+         <h4 class="mt-4 mb-3">5. OS support</h4>
+         <p class="body-text">
+            NGINX server offers official support for its business adaptation NGINX Plus. The business versions
+            incorporate not many highlighted features in the territory of load adjustment, media streaming, and
+            checking. With the expectation of complimentary release, NGINX offers native community support through
+            mailing records, IRC, and other forums.
+         </p>
+         <p class="body-text">
+            While, just opposite to it, Apache server doesn't have any business form however all business backing can
+            profit through outsiders. Like NGINX, Apache likewise offers native communities through mailing records, IRC
+            and discussions.
+         </p>
+         <h4 class="mt-4 mb-3">6. Modules</h4>
+         <p class="body-text">
+            Both Apache server and NGINX server can be reached out with modules however the manner by which
+            functionalities are consolidated utilizing modules are extraordinary. There are around 60 modules that are
+            supported by Apache formally that can be powerfully stacked or dumped according to your requirements.
+         </p>
+         <p class="body-text">
+            NGINX additionally supports the idea of the module however prior it was impractical to stack modules
+            progressively into it. The system admin used to order modules to incorporate it profoundly. In any case, in
+            the start of 2016 NGINX got the help for dynamic module stacking. With dynamic modules, you can
+            alternatively stack separate shared item documents at runtime as modules – both outsider modules and some
+            local NGINX modules.
+         </p>
+         <h4 class="mt-4 mb-3">7. Security</h4>
+         <p class="body-text">
+            In the security terms of NGINX server and Apache server, the platforms serve well with a demonstrated
+            security history. The mod_evasive and mod_security module of Apache gives an extra layer of security by
+            relieving DDoS/Brute power assaults and introducing a web application firewall separately.
+         </p>
+         <p class="body-text">
+            The Apache Software Foundation follows a proactive strategy while managing security issues and disavowal of
+            administration assaults against the Apache HTTP server. The establishment additionally distributes a
+            security announcement and urges clients to report any new security issues with Apache.
+         </p>
+         <p class="body-text">
+            Like Apache, NGINX also list security updates in its website and encourages clients to follow not many
+            prescribed arrangement settings to alleviate DDoS attacks
+         </p>
+         <h4 class="mt-4 mb-3">8. Flexibility</h4>
+         <p class="body-text">
+            Web workers can be customized by mixing modules. Apache has had dynamic module stacking for a very long
+            time, so all Apache modules support this.
+         </p>
+         <p class="body-text">
+            NGINX Plus(NGINX Plus is a product load balancer, web server, and content store based on top of open source
+            NGINX) utilizes a particular design as well. New features and usefulness can be added with software modules,
+            which can be connected to a running NGINX Plus example on interest. Dynamic modules add usefulness to NGINX
+            Plus, for example, geo-finding clients by IP address, resizing pictures, and implanting contents into the
+            NGINX Plus event preparing model. Modules are made both by NGINX, Inc., and outsider developers.
+         </p>
+         <h4 class="mt-4 mb-3">9. Support and Documentation</h4>
+         <p class="body-text">
+            A significant feature considered is the accessible assistance and backing for the web servers among other
+            software. Since Apache server has been well known for such a long time, support for the server is genuinely
+            pervasive. There is an enormous library of first and outsider documentation accessible for the central
+            server and for task-based situations including attaching Apache with other software.
+         </p>
+         <p class="body-text">
+            Alongside documentation, numerous apparatuses and web projects incorporate devices to bootstrap themselves
+            inside an Apache climate. This might be remembered for the ventures themselves, or in the bundles kept up by
+            your team of distribution packaging team.
+         </p>
+         <p class="body-text">
+            Apache server has more support from outsider ventures just as a result of its piece of the pie and the
+            period of time it has been accessible.
+         </p>
+         <p class="body-text">
+            For NGINX, prior, it was hard to track down extensive English-language documentation because of the way that
+            the vast majority of the early turn of events and documentation were in Russian. While today the
+            documentation has been rounded out and there are presently a lot of organization assets on the NGINX site
+            and accessible documentation by outsiders.
+         </p>
+         <p class="mt-5 technology-heading">The Pros and Cons of Apache server vs NGINX server</p>
+
+
+         <p class="body-text">
+            Additionally to serve the classy services both the server platform as NGINX and Apache have come along with
+            a number of beneficial factors that are listed as.
+         </p>
+         <h4 class="mt-3 mb-3">The Key benefits of Apache web server</h4>
+
+         <ol>
+            <li>
+               <p class="body-text"> It can be simpler to set up and manage. </p>
+            </li>
+            <li>
+               <p class="body-text">You manage your worker's arrangement on account of .htaccess records</p>
+            </li>
+            <li>
+               <p class="body-text">The module determination is better and you can empower and handicap modules
+                  voluntarily. </p>
+            </li>
+            <li>
+               <p class="body-text">You can conclude how to deal with demands utilizing various modules. </p>
+            </li>
+         </ol>
+         <p class="body-text">
+            The essential drawback of utilizing Apache server versus the NGINX server is that the last basically scales
+            better. In case you're as yet in the developing phase of your site, Apache server ought to be all that could
+            possibly be needed to deal with the traffic.
+         </p>
+         <p class="body-text">
+            However, eventually, you may have to consider updating your server stack if your website turns out to be
+            significantly effective. This could mean changing to NGINX or utilizing it as converse access for your
+            Apache web server.
+         </p>
+         <h4 class="mt-3 mb-3">The Key benefits of NGINX web server</h4>
+         <p class="body-text">
+            NGINX has two major advantages with regards to Apache execution and versatility. To be more explicit, NGINX
+            is better with regards to:
+         </p>
+
+         <ol>
+            <li>
+               <p class="body-text">Handling huge quantities of simultaneous requests. </p>
+            </li>
+            <li>
+               <p class="body-text">Getting better execution with fewer equipment assets. </p>
+            </li>
+            <li>
+               <p class="body-text">Serving static substance quicker </p>
+            </li>
+         </ol>
+         <p class="mt-5 technology-heading">Nginx web server vs Apache web server: A Quick Comparison</p>
+         <p class="body-text">To finely differentiate both the server platforms, here is a quick comparison table for
+            Nginx vs Apache:</p>
+         <table class="table blog-table table-hover">
+            <thead>
+               <tr>
+                  <th scope="col">S.no.</th>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Apache</th>
+                  <th scope="col">NGINX</th>
+
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th scope="row">1.</th>
+                  <td>Simplicity</td>
+                  <td>Simple to create and enhance on account of its one-association per-measure model.</td>
+                  <td>Complex to create as it has a refined design to deal with different associations simultaneously.
+                  </td>
+               </tr>
+               <tr>
+                  <th scope="row">2.</th>
+                  <td>Static Content Performance</td>
+                  <td>Provide slow service for static content</td>
+                  <td>Its 2.5 multiple quicker than Apache web server and also works in a less memory requirement.</td>
+
+               </tr>
+               <tr>
+                  <th scope="row">3.</th>
+                  <td>Dynamic Content Performance</td>
+                  <td>Provide awesome dynamic content performance.</td>
+                  <td>Deliver wonderful performance for dynamic content.e</td>
+               </tr>
+               <tr>
+                  <th scope="row">4.</th>
+                  <td>OS support</td>
+                  <td> Provides best supportive environment for all OS </td>
+                  <td> Fully supports each OS. Unix and windows anyway execution on Windows is nearly less stable.</td>
+               </tr>
+               <tr>
+                  <th scope="row">5.</th>
+                  <td>Security</td>
+                  <td>Is a protected web worker. Understanding and arranging the security highlights are significant.
+                  </td>
+                  <td>Is a safe web worker. Understanding and arranging the security features are significant.</td>
+               </tr>
+               <tr>
+                  <th scope="row">6.</th>
+                  <td>Flexible</td>
+                  <td>It tends to be modified by adding modules. Apache had dynamic module stacking for a very long
+                     time.</td>
+                  <td>The 1.11.5 version of NGNIX and NGINX Plus Release R11 presented similarity for dynamic modules.
+                  </td>
+               </tr>
+               <tr>
+                  <th scope="row">7.</th>
+                  <td>Support and Documentation</td>
+                  <td>Amazing support and documentation are accessible as it has been on the lookout for quite a while.
+                  </td>
+                  <td>There was a frail beginning for support and documentation for NGINX, it has developed quickly
+                     subsequently now it has phenomenal asset backing and documentation accessible.</td>
+               </tr>
+            </tbody>
+         </table>
+
+
+         <h4 class="mt-5 technology-heading">Cases to prefer Apache over NGINX?</h4>
+
+         <h4 class="mt-3 mb-3">1. Apache .htaccess</h4>
+         <p class="body-text">
+            NGINX doesn't support something like the Apache's .htaccess document. Nonetheless, with Apache server, you
+            get a bit of leeway to give the non-favoured clients command over some significant parts of their website.
+         </p>
+         <ol>
+            <li>
+               <p class="body-text">The clients, clearly, are not allowed to alter the principal setup. </p>
+            </li>
+            <li>
+               <p class="body-text"></p>Using .htaccess documents, you can abrogate system-wide settings on every
+               registry premise.
+            </li>
+            <li>
+               <p class="body-text"></p>For ideal execution, incorporate these .htaccess mandates in the primary setup
+               files.
+            </li>
+            <li>
+               <p class="body-text">In a shared facilitating climate, Apache server works better in light of its
+                  .htaccess design.</p>
+            </li>
+         </ol>
+
+         <h4 class="mt-4 mb-3">2. Facing functionality limitations with other servers – use Apache server</h4>
+         <ol>
+            <li>
+               <p class="body-text">Nginx server has some centre modules that are significant. However, there are some
+                  usefulness constraints with Nginx. </p>
+            </li>
+            <li>
+               <p class="body-text"></p>In an instance of certain impediments or expecting to utilize additional modules
+               that are not supported by Nginx, you should pick Apache server to get all facilities equally.
+            </li>
+         </ol>
+
+
+         <p class="mt-5 technology-heading">Cases to prefer NGINX over Apache server?</p>
+         <h4 class="mt-4 mb-3">1. Fast Static Content Processinger</h4>
+         <ol>
+            <li>
+               <p class="body-text">Nginx can do fantastic work at dealing with the static documents from a particular
+                  index. </p>
+            </li>
+            <li>
+               <p class="body-text"></p>The upstream server measures don't get obstructed in light of the weighty,
+               different static content demands as Nginx web server can handle them simultaneously. This altogether
+               improves the general presentation of backend servers.
+            </li>
+            <li>
+               <p class="body-text"></p>Nginx is unendingly attempting to serve its clients a superior experience. It
+               has demonstrated some astounding development in the year 2018.
+            </li>
+         </ol>
+
+         <h4 class="mt-4 mb-3">2. Awesomely serves High Traffic Websites</h4>
+         <ol>
+            <li>
+               <p class="body-text">If we talk about the speed and the number of customers that can be served on a heavy
+                  load, Nginx web server will consistently sparkle as a champion over Apache web server. </p>
+            </li>
+            <li>
+               <p class="body-text"></p>This makes Nginx server fundamentally lightweight and incredible for server
+               assets. This is the reason a large portion of the web developers inclines toward Nginx server over Apache
+               server.
+            </li>
+            <li>
+               <p class="body-text"></p>Especially, the e-stores today enlist a Magento developer that realizes how to
+               chip away at a high-traffic site, and proficient in dealing with Nginx web servers.
+            </li>
+         </ol>
+
+
+         <p class="mt-5 technology-heading">NGINX and Apache – Working together</p>
+         <p class="body-text">For numerous web applications, NGINX and Apache web servers supplement each other
+            perfectly. An extremely basic beginning example is to send the open-source NGINX software as access (or
+            NGINX Plus as the application conveyance stage) before an Apache-based web application. NGINX plays out the
+            HTTP-related truly difficult work serving static documents, reserving content, and offloading moderate HTTP
+            associations with the goal that the Apache web server can run the application code in a free form any safe
+            and secure environment.</p>
+
+         <p class="mt-5 technology-heading">Conclusion</p>
+
+         <p class="body-text">Any reasonable person would agree that NGINX server and Apache server offer quality
+            execution, they're adaptable, they're competent, and they're amazing. Picking which servers turns out best
+            for your necessities relies to a great extent upon evaluating your individual requirements and testing with
+            those examples you accept you're probably going to see. </p>
+         <p class="body-text">Various comparisons between these projects tangibly affect abilities, execution, and the
+            time needed to actualize every arrangement adequately. In any case, these will, in general, be the
+            aftereffect of various compromises that shouldn't be excused without any problem. No matter what, there's no
+            web server that addresses everybody's issues each and every time, so it's ideal to use the arrangement that
+            perfectly suits your project requirements and goals.</p>
+
+
+      </div>
+   </section>
+   <!-- End Blog Single Area -->
+   <!-- Footer Area -->
+   <footer class="footer_area">
+      <div class="container">
+         <section class="  contact-form-section">
+            <div class="  p-lg-5 p-3">
+               <h2 class="text-center   ">Let’s cut the distance today.</h2>
+               <p class="text-center mb-5 mt-1">Kindly enter your contact details. And our team will get back to you
+                  through email. </p>
+               <div class="row">
+                  <div class="col-md-12 col-lg-6 d-flex align-items-center">
+                     <img width="100%"
+                        src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/services/mail-2.jpg">
+                  </div>
+                  <div class="col-md-12 col-lg-6">
+                     <form action="#" name="myForm">
+                        <div class="form-group">
+                           <label class="form-label">Name</label>
+                           <input type="text" class="form-control required" name="name" placeholder="Full Name"
+                              autocomplete="off">
+                        </div>
+                        <div class="row mt-4">
+                           <div class="form-group col-lg-6">
+                              <label class="form-label">Email</label>
+                              <input type="email" class="form-control required  " name="email" placeholder="Email">
+                           </div>
+                           <div class="form-group col-lg-6">
+                              <label class="form-label">Phone</label>
+                              <input type="text" class="form-control required" name="phone" placeholder="Phone">
+                           </div>
+                        </div>
+                        <div class="form-group mt-4">
+                           <label class="form-label">Message</label>
+                           <textarea class="form-control required" name="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                           <div class="col-md-5">
+                              <div class="number-box d-flex  p-4">
+                                 <span class="first-num">5</span>
+                                 <span>+</span>
+                                 <span class="second-num">2</span>
+                                 <span>=</span>
+                                 <input class="ml-lg-3 last-input-box" id="finalnum" type="text" maxlength="2"
+                                    onkeyup="checkNumber()">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group m-0 mt-4">
+                           <button class="send_btn  " type="button" onclick="validateform(this.form)" value="submit"
+                              name="submit" id="submit-btn">Let's
+                              Talk</button>
+                        </div>
+                        <!-- <input type="hidden" name="_redirect" value="https://www.perfectiongeeks.com/success" />
+            <input type="hidden" name="_email.subject" value="You have a new message!" />
+            <input type="hidden" name="_email.from" value="Shrey" /> -->
+                     </form>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+         <div class="footer_inner row">
+            <div class="footer_widget fw_1 col-lg-2 col-sm-6 col-xs-12 wow fadeIn">
+               <h5 class="font-weight-bold mb-3">Design</h5>
+               <ul class="footer_nav">
+                  <li><a href="https://www.perfectiongeeks.com/uxui-design-services">UX UI Design</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/product-design-services">Product Design</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/web-design-services">Website Design</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe Design</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile UI Design</a>
+                  </li>
+               </ul>
+               <h5 class="font-weight-bold mb-3 mt-5">Strategy</h5>
+               <ul class="footer_nav">
+                  <li><a href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                        Mobility</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic Consulting</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/voice-technology-services">Voice Technology</a>
+                  </li>
+               </ul>
+
+            </div>
+            <div class="footer_widget fw_1 col-lg-3 col-sm-6 col-xs-12 wow fadeIn">
+               <h5 class="font-weight-bold mb-3">Development</h5>
+               <ul class="footer_nav">
+                  <li><a href="https://www.perfectiongeeks.com/android-app-development-services">Android Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                        Intelligence</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/augmented-reality-services">Augmented Reality</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/bot-development-services">Bot Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud Computing</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/dapp-development-services">Dapp Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/iot-app-development-services">IOT App Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/ios-app-development-services">Iphone App Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/machine-learning-services">Machine Learning</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable App</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/web-development-services">Web Development</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer_widget col-lg-3 col-sm-4 col-xs-12 wow fadeIn width-90">
+               <h5 class="font-weight-bold mb-3">Blockchain Solutions</h5>
+               <ul class="footer_nav">
+                  <li><a href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain App
+                        Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain Solutions</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS Blockchain
+                        Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera Hashgraph
+                        Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger Blockchain
+                        App</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS Blockchain
+                        Development</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private Blockchain
+                        Solutions</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3 Corda
+                        Blockchain</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato Blockchain</a>
+                  </li>
+                  <li><a href="https://www.perfectiongeeks.com/MLM-app-developer">MLM app developer</a></li>
+               </ul>
+            </div>
+            <div class="footer_widget col-lg-4 col-sm-4 col-xs-12 wow fadeIn width-90">
+               <h5 class="font-weight-bold mb-3">Contact Us</h5>
+               <ul class="footer_nav">
+                  <p class="font-weight-bold">India</p>
+                  <p class="mb-3"><i class="fa fa-map-marker mr-3"></i>4B, 4th floor, Plot No. A-8, Bigjos Tower, Netaji
+                     Subhash
+                     Place, Pitampura, Delhi, 110034
+                  </p>
+                  <i class="fa fa-phone mr-3  "></i>
+                  <a href="tel:8920947884"> 8920947884</a>
+                  <p class="font-weight-bold mt-3">USA</p>
+                  <p><i class="fa fa-map-marker mr-3 mb-3"></i>17224 S. Figueroa Street Gardena CA 90248-3023</p>
+                  <i class="fa fa-phone mr-3"></i>
+                  <a href="tel:+19176282062"> +19176282062</a>
+
+               </ul>
+
+               <ul class="footer_nav">
+                  <p class="font-weight-bold mt-3  ">E-Mail:</p>
+                  <p><a href="mailto:Sales@perfectiongeeks.com" class="text-white">Sales@perfectiongeeks.com</a>
+                     <a href="mailto:hr@perfectiongeeks.com" class="text-white">hr@perfectiongeeks.com</a>
+                  </p>
+                  <form class="form-inline">
+                     <div class="form-group ">
+                        <input type="email" class="form-control news-input" id=" " placeholder="Email">
+                     </div>
+                     <button type="submit" class="btn btn-primary news-btn  "><i class="fa fa-envelope"
+                           aria-hidden="true"></i></button>
+                  </form>
+                  <ul class="social">
+                     <li><a href="https://www.facebook.com/perfectiongeeks/" target="_blank"><i
+                              class="fa fa-facebook-square"></i></a>
+                     </li>
+                     <li><a href="https://twitter.com/perfectiongeeks" target="_blank"><i
+                              class="fa fa-twitter-square"></i></a>
+                     </li>
+                     <li><a href="https://in.linkedin.com/company/perfectiongeeks-technologies" target="_blank"><i
+                              class="fa fa-linkedin-square"></i></a>
+                     </li>
+                     <li><a href="https://instagram.com/perfectiongeeks" target="_blank"><i
+                              class="fa fa-instagram"></i></a>
+                     </li>
+                  </ul>
+               </ul>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12">
+               <p class="copyright text-center">
+                  <img loading="lazy"
+                     src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/img_dmca.png" alt="dmca">
+                  <img loading="lazy" class="ssl_img"
+                     src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/ssl-secure.png"
+                     alt="sslsecure">Copyright © 2020 PerfectionGeeks Technologies | All Rights Reserved
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- End Footer Area -->
+   <!-- Modal -->
+   <div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-labelledby="contact_modalTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+         <div class="modal-content">
+            <div class="modal-body p-0">
+               <div class="row">
+                  <div class="col-md-5">
+                     <img src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/contactus.jpg" class="img-fluid"
+                        alt="contact us">
+                  </div>
+                  <div class="col-md-7">
+                     <div class="modal-contentt">
+                        <h2>Wanna Talk? We would love to hear.</h2>
+                        <h6>For sales queries, call us at:</h6>
+                        <a href="tel:+91-8920947884" class="theme_btn">+91 8920947884</a>
+                        <a href="mailto:sales@perfectiongeeks.com" class="theme_btn">sales@perfectiongeeks.com</a>
+                        <h2>Looking to be a part of our team?</h2>
+                        <h6>If you’ve got powerful skills, we’ll pay your bills. Contact our HR at:</h6>
+                        <a href="mailto:hr@perfectiongeeks.com" class="theme_btn">hr@perfectiongeeks.com</a>
+                        <a href="tel:+91-8920947884" class="theme_btn">+91 8920947884</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--covid*--btn-->
+   <a class="covid-btn" href="https://www.perfectiongeeks.com/covid-19">
+      Coronavirus Crisis
+   </a>
+   <!--covid* btn end-->
+   <!-- Scroll Top Button -->
+   <button class="scroll-top">
+      <i class="fa fa-angle-double-up"></i>
+   </button>
+   <a href="http://wa.link/qpfhxo" class="whats-app">
+      <img src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/whats-app.svg">
+   </a>
+   <!-- Preloader -->
+   <div class="preloader"></div>
+
+   <!--schema-->
+
+   <!--schema end-->
+   <!-- jQuery v3.3.1 -->
+   <script src="https://d32yelkel05fze.cloudfront.net/pfiles/new/js/jquery-3.3.1.min.js"></script>
+   <!-- Bootstrap v4.0.0 -->
+   <script src="https://d32yelkel05fze.cloudfront.net/pfiles/new/js/popper.min.js"></script>
+   <script src="https://d32yelkel05fze.cloudfront.net/pfiles/new/js/bootstrap.min.js"></script>
+   <!-- Extra Plugin -->
+   <script src="vendors/animate-css/wow.min.js"></script>
+   <!-- Theme js / Custom js -->
+   <script src="https://d32yelkel05fze.cloudfront.net/pfiles/new/js/theme.js"></script>
+</body>
+
+</html>
